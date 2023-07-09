@@ -1,0 +1,30 @@
+.customContainer {
+  text-align: left;
+  margin-top: 1.5%;
+}
+
+.customerRow {
+  max-height: 500px !Important;
+  overflow-y:scroll; 
+}
+
+.customTest {
+  cursor: default;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;  
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #333;
+}

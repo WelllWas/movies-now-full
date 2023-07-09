@@ -1,0 +1,9 @@
+services:
+  backend:
+    build: movies-now-backend/.
+    ports:
+    - "3001:3001"
+  frontend:
+    build: movies-now/.
+    ports:
+    - "3000:3000"

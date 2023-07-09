@@ -1,0 +1,16 @@
+.customColumn {
+  @media screen and (max-width: 575px) {
+    margin-top: 1.5%;
+  }
+}
+
+.customContainer {
+  margin-top: 2%;
+}
+
+.customButton {
+  width: 150px;
+  @media screen and (max-width: 575px) {
+    // width: 100%;
+  }
+}
